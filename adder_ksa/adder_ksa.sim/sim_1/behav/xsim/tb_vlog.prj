@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../adder.srcs/sources_1/new/black.v" \
+"../../../../adder.srcs/sources_1/new/grey.v" \
+"../../../../adder.srcs/sources_1/new/ks_1.v" \
+"../../../../adder.srcs/sources_1/new/ks_2.v" \
+"../../../../adder.srcs/sources_1/new/ks_3.v" \
+"../../../../adder.srcs/sources_1/new/ks_4.v" \
+"../../../../adder.srcs/sources_1/new/ks_5.v" \
+"../../../../adder.srcs/sources_1/new/ks_6.v" \
+"../../../../adder.srcs/sources_1/new/ks_7.v" \
+"../../../../adder.srcs/sources_1/new/pg.v" \
+"../../../../adder.srcs/sources_1/new/top.v" \
+"../../../../adder.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

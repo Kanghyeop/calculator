@@ -1,0 +1,17 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/dev/fpga_proj/_mini/calculator/adder/adder.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sim_1/new/tb.v,1663844668,verilog,,,,tb,,,,,,,,
+C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/black.v,1663843720,verilog,,C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/grey.v,,black,,,,,,,,
+C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/grey.v,1663843751,verilog,,C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_1.v,,grey,,,,,,,,
+C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_1.v,1663838643,verilog,,C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_2.v,,ks_1,,,,,,,,
+C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_2.v,1663838684,verilog,,C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_3.v,,ks_2,,,,,,,,
+C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_3.v,1663838732,verilog,,C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_4.v,,ks_3,,,,,,,,
+C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_4.v,1663838765,verilog,,C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_5.v,,ks_4,,,,,,,,
+C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_5.v,1663838796,verilog,,C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_6.v,,ks_5,,,,,,,,
+C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_6.v,1663838825,verilog,,C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_7.v,,ks_6,,,,,,,,
+C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/ks_7.v,1663843655,verilog,,C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/pg.v,,ks_7,,,,,,,,
+C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/pg.v,1663843690,verilog,,C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/top.v,,pg,,,,,,,,
+C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sources_1/new/top.v,1663838577,verilog,,C:/dev/fpga_proj/_mini/calculator/adder/adder.srcs/sim_1/new/tb.v,,top,,,,,,,,

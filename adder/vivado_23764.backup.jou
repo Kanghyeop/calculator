@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Sep 22 19:56:28 2022
+# Process ID: 23764
+# Current directory: C:/dev/fpga_proj/_mini/calculator/adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25516 C:\dev\fpga_proj\_mini\calculator\adder\adder.xpr
+# Log file: C:/dev/fpga_proj/_mini/calculator/adder/vivado.log
+# Journal file: C:/dev/fpga_proj/_mini/calculator/adder\vivado.jou
+# Running On: DESKTOP-UK50EEK, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 17103 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/dev/fpga_proj/_mini/calculator/adder/adder.xpr
+launch_simulation
+source tes_bench32.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source tes_bench32.tcl
+close_sim
+launch_simulation
+source tes_bench32.tcl
+launch_simulation
+launch_simulation
+close_sim
