@@ -666,3 +666,4 @@ con
 ----------------End of Script----------------
 
 22:21:17 INFO  : Launch script is exported to file 'C:\dev\fpga_proj\_mini\calculator\adder_axi4_vitis\adder_axi4_app_system\_ide\scripts\debugger_adder_axi4_app-default.tcl'
+22:29:25 INFO  : Disconnected from the channel tcfchan#13.

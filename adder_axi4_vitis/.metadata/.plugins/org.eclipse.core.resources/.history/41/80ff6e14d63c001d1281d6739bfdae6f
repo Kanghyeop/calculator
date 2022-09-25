@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdint.h> // datatype uintN_t
+#include <stdint.h> // uint8_t
 #include "xparameters.h"
 #include "xil_io.h"
 
