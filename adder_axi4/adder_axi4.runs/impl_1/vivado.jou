@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Sep 25 18:24:58 2022
+# Process ID: 15088
+# Current directory: C:/dev/fpga_proj/_mini/calculator/adder_axi4/adder_axi4.runs/impl_1
+# Command line: vivado.exe -log adder_axi4_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source adder_axi4_top.tcl -notrace
+# Log file: C:/dev/fpga_proj/_mini/calculator/adder_axi4/adder_axi4.runs/impl_1/adder_axi4_top.vdi
+# Journal file: C:/dev/fpga_proj/_mini/calculator/adder_axi4/adder_axi4.runs/impl_1\vivado.jou
+# Running On: DESKTOP-UK50EEK, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 17103 MB
+#-----------------------------------------------------------
+source adder_axi4_top.tcl -notrace

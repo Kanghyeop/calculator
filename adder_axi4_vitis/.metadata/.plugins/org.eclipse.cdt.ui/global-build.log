@@ -1,0 +1,53 @@
+Nothing to build in platform 'design_1_wrapper'
+
+22:20:44 **** Incremental Build of configuration Debug for project adder_axi4_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/dev/fpga_proj/_mini/calculator/adder_axi4_vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:56:14: warning: format '%u' expects argument of type 'unsigned int *', but argument 2 has type 'uint32_t *' {aka 'long unsigned int *'} [-Wformat=]
+   56 |      scanf("%u", &a);
+      |             ~^   ~~
+      |              |   |
+      |              |   uint32_t * {aka long unsigned int *}
+      |              unsigned int *
+      |             %lu
+../src/main.c:58:14: warning: format '%u' expects argument of type 'unsigned int *', but argument 2 has type 'uint32_t *' {aka 'long unsigned int *'} [-Wformat=]
+   58 |      scanf("%u", &b);
+      |             ~^   ~~
+      |              |   |
+      |              |   uint32_t * {aka long unsigned int *}
+      |              unsigned int *
+      |             %lu
+../src/main.c:67:19: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+   67 |      printf("s : %u\n", s & 0xFFFFFFFF);
+      |                  ~^     ~~~~~~~~~~~~~~
+      |                   |       |
+      |                   |       long unsigned int
+      |                   unsigned int
+      |                  %lu
+../src/main.c:68:22: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+   68 |      printf("Cout : %u\n", Cout & 0xFFFFFFFF);
+      |                     ~^     ~~~~~~~~~~~~~~~~~
+      |                      |          |
+      |                      |          long unsigned int
+      |                      unsigned int
+      |                     %lu
+'Finished building: ../src/main.c'
+' '
+'Building target: adder_axi4_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/dev/fpga_proj/_mini/calculator/adder_axi4_vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "adder_axi4_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: adder_axi4_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size adder_axi4_app.elf  |tee "adder_axi4_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78454	   2550	  22640	 103644	  194dc	adder_axi4_app.elf
+'Finished building: adder_axi4_app.elf.size'
+' '

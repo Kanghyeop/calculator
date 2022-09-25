@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdint.h> // uint8_t
+#include "xparameters.h"
+#include "xil_io.h"
+
+#define DATA_REG_0 0
+#define DATA_REG_1 1
+#define DATA_REG_2 2
+#define DATA_REG_3 3
+#define DATA_REG_4 4
+
+int main() {
+	// general
+	int select_mode;
+
+	// program0
+	int num0;
+	int num1;
+
+	// program1
+	uint8_t a[BITS_SIZE];
+	//uint8_t b[BITS_SIZE];
+	//uint8_t Cin;
+	//uint8_t s[BITS_SIZE];
+	//uint8_t Cout;
+
+	// loop
+	while (1) {
+			printf("\n@@@ Vitis Start\n");
+			printf("@@@ Select Program\n");
+			printf("1. calculator by cpu\n");
+			printf("2. calculator by adder\n");
+			printf("other. do nothing\n");
+			scanf("%d", &select_mode);
+
+			if (select_mode == 1) {
+				printf("@@@ Program Start\n");
+				printf("plz input 'num0'\n");
+				scanf("%d", &num0);
+				printf("plz input 'num1'\n");
+				scanf("%d", &num1);
+				printf("result = %d\n", num0 + num1);
+				printf("@@@ Program Done\n");
+			}
+			if (select_mode == 2) {
+				a = [1, 2];
+				printf("%s", a);
+			}
+			else {
+				// do nothing
+			}
+		}
+
+		return 0;
+
+}
